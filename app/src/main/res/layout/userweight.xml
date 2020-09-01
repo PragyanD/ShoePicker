@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <SeekBar
+        android:id="@+id/seekBar5"
+        style="@style/Widget.AppCompat.SeekBar.Discrete"
+        android:layout_width="250dp"
+        android:layout_height="98dp"
+        android:max="100"
+        android:progress="5"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="199dp" />
+
+    <SeekBar
+        android:id="@+id/seekBar4"
+        style="@style/Widget.AppCompat.SeekBar.Discrete"
+        android:layout_width="250dp"
+        android:layout_height="98dp"
+        android:max="100"
+        android:progress="5"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="199dp" />
+
+    <SeekBar
+        android:id="@+id/custom"
+        style="@style/Widget.AppCompat.SeekBar.Discrete"
+        android:layout_width="254dp"
+        android:layout_height="104dp"
+        android:max="1"
+        android:progress="1"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="72dp" />
+
+    <AutoCompleteTextView
+        android:id="@+id/autoCompleteTextView"
+        android:layout_width="349dp"
+        android:layout_height="55dp"
+        android:text="Do you want to use customized weights?"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="42dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName9"
+        android:layout_width="73dp"
+        android:layout_height="44dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Yes"
+        tools:layout_editor_absoluteX="317dp"
+        tools:layout_editor_absoluteY="97dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName10"
+        android:layout_width="89dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Foot Type"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="176dp" />
+
+    <SeekBar
+        android:id="@+id/uft"
+        style="@style/Widget.AppCompat.SeekBar.Discrete"
+        android:layout_width="250dp"
+        android:layout_height="98dp"
+        android:max="100"
+        android:progress="5"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="199dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName11"
+        android:layout_width="91dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Sport"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="265dp" />
+
+    <SeekBar
+        android:id="@+id/usport"
+        style="@style/Widget.AppCompat.SeekBar.Discrete"
+        android:layout_width="247dp"
+        android:layout_height="96dp"
+        android:max="100"
+        android:progress="5"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="288dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName12"
+        android:layout_width="91dp"
+        android:layout_height="46dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Use"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="356dp" />
+
+    <SeekBar
+        android:id="@+id/uuse"
+        style="@style/Widget.AppCompat.SeekBar.Discrete"
+        android:layout_width="247dp"
+        android:layout_height="82dp"
+        android:max="100"
+        android:progress="5"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="394dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName13"
+        android:layout_width="98dp"
+        android:layout_height="39dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Material"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="455dp" />
+
+    <SeekBar
+        android:id="@+id/umaterial"
+        style="@style/Widget.AppCompat.SeekBar.Discrete"
+        android:layout_width="247dp"
+        android:layout_height="82dp"
+        android:max="100"
+        android:progress="5"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="476dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName14"
+        android:layout_width="105dp"
+        android:layout_height="44dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Durability"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="530dp" />
+
+    <SeekBar
+        android:id="@+id/udurability"
+        style="@style/Widget.AppCompat.SeekBar.Discrete"
+        android:layout_width="257dp"
+        android:layout_height="61dp"
+        android:max="100"
+        android:progress="5"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="567dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName15"
+        android:layout_width="174dp"
+        android:layout_height="39dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Weight Remaining"
+        tools:layout_editor_absoluteX="322dp"
+        tools:layout_editor_absoluteY="256dp" />
+
+    <EditText
+        android:id="@+id/weight"
+        android:layout_width="48dp"
+        android:layout_height="37dp"
+        android:ems="10"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="505dp"
+        tools:layout_editor_absoluteY="258dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
